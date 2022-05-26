@@ -1,0 +1,15 @@
+# next.js
+.next/
+out/
+
+*-lock.yaml
+*.log
+
+# Custom
+.turbo
+.vercel
+/apps/mockup/public/script.js
+/apps/mockup/public/styles.css
+/apps/storybook/storybook-static
+/apps/web/src/lib/$path.ts
+/packages/generated/dist

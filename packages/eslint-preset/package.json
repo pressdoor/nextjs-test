@@ -1,0 +1,39 @@
+{
+  "name": "eslint-preset",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "next.js",
+    "node.js",
+    "typescript.js",
+    "web.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.10",
+    "@typescript-eslint/eslint-plugin": "5.23.0",
+    "@typescript-eslint/parser": "5.23.0",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-storybook": "0.5.12",
+    "lintstagedrc": "workspace:*",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "typescript": "4.6.4"
+  },
+  "peerDependencies": {
+    "@babel/core": "7.17.10",
+    "eslint": "8.16.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "typescript": "4.6.4"
+  }
+}
